@@ -8,7 +8,7 @@
 namespace sjoorm\yii\extensions;
 use yii\base\Component;
 /**
- * Class XHProf
+ * Class XHProf implements Yii2 extension to achieve profiling results
  * @package sjoorm\yii\extensions
  */
 class XHProf extends Component {
