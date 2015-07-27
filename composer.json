@@ -1,0 +1,29 @@
+{
+  "name": "sjoorm/yii2-xhprof",
+  "description": "Simple Yii2 XHProf extension",
+  "keywords": ["yii2", "extension", "optimization", "xhprof", "profiling"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/sjoorm/yii2-xhprof/issues",
+    "source": "https://github.com/sjoorm/yii2-xhprof"
+  },
+  "authors": [
+    {
+      "name": "Alexey Tishchenko",
+      "email": "alexey@atishchenko.com",
+      "homepage": "https://www.atishchenko.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php":">=5.4.0",
+    "yiisoft/yii2": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "sjoorm\\yii\\": ""
+    }
+  }
+}
